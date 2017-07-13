@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace COMP123_S2017_Lab24
 {
-    interface IHasMalice
+    public interface IHasMalice
     {
         //public properties
         int Malice { get; set; }

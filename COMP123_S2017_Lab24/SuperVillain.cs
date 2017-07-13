@@ -16,7 +16,23 @@ namespace COMP123_S2017_Lab24_SuperVillain
     /// <summary>
     /// This is the SuperVillain class
     /// </summary>
-    public class SuperVillain:SuperHuman,
+    public class SuperVillain:SuperHuman, IHasMalice
     {
+        // PRIVATE INSTANCE VARIABLES
+        private int _malice;
+
+        // PUBLIC PROPERTIES
+        public int Malice
+        {
+            get
+            {
+                return this._malice;
+            }
+
+            set
+            {
+                this._malice = value;
+            }
+        }
     }
 }
