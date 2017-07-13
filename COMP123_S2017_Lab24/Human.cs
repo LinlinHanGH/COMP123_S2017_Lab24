@@ -18,7 +18,6 @@ namespace COMP123_S2017_Lab24
         // PUBLIC PROPERTIES
         public string Name
         {
-
             get
             {
                 return this._name;

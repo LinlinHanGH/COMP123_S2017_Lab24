@@ -18,6 +18,7 @@ namespace COMP123_S2017_Lab24
             superHero.AddPower("Webcasting", 40);
             Console.WriteLine(superHero.ToString());
 
+            Console.WriteLine("**********Add Super Villains*************");
             SuperVillain superVillain = new SuperVillain("Maleficent", 30);
             superVillain.AddPower("Casting Spell", 30);
             superVillain.AddPower("Flying", 40);
