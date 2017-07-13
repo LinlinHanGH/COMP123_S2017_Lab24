@@ -1,16 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-/*
+﻿/*
  * Name: Linlin Han
  * Date: July 13, 2017
  * Description: This is the SuperHero class which inherits from the SuperHuman class
  * Version: 0.1 - implemented the ToString method of the superhuman class
  */
 
-namespace COMP123_S2017_Lab24_SuperVillain
+namespace COMP123_S2017_Lab24
 {
     /// <summary>
     /// This is the SuperHero class

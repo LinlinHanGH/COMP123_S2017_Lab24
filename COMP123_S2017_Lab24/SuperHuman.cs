@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 /*
  * Name: Linlin Han
@@ -10,7 +8,7 @@ using System.Text;
  * Version: 0.7 - Added the DisplaySkills stub method to satisfy the Human super class requirements
  */
 
-namespace COMP123_S2017_Lab24_SuperVillain
+namespace COMP123_S2017_Lab24
 {
     /// <summary>
     /// This is the SuperHuman class.
@@ -84,14 +82,14 @@ namespace COMP123_S2017_Lab24_SuperVillain
         public override string ToString()
         {
             string outputString = "";
-            outputString += "===========================================================\n";
+            outputString += "-----------------------------------------------------------\n";
             outputString += "Super Human Name: " + this.Name + "\n";
-            outputString += "===========================================================\n";
+            outputString += "-----------------------------------------------------------\n";
             foreach (Power power in this.Powers)
             {
                 outputString += "Power: " + power.Name + " Rank: " + power.Rank + "\n";
             }
-            outputString += "===========================================================\n";
+            outputString += "-----------------------------------------------------------\n";
             return outputString;
         }
 

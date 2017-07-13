@@ -1,17 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 /*
  * Name: Linlin Han
  * Date: July 13, 2017
  * Description: Demo for Lesson 9
- * Version: 0.7 - Modified Driver class to implement SuperHero
+ * Version: 0.8 - Modified Driver class to implement SuperVillain
  */
 
-namespace COMP123_S2017_Lab24_SuperVillain
+namespace COMP123_S2017_Lab24
 {
     class Program
     {
@@ -22,7 +18,10 @@ namespace COMP123_S2017_Lab24_SuperVillain
             superHero.AddPower("Webcasting", 40);
             Console.WriteLine(superHero.ToString());
 
-
+            SuperVillain superVillain = new SuperVillain("Maleficent", 30);
+            superVillain.AddPower("Casting Spell", 30);
+            superVillain.AddPower("Flying", 40);
+            Console.WriteLine(superVillain.ToString());
         }
     }
 }

@@ -1,17 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-/*
+﻿/*
  * Name: Linlin Han
  * Date: July 13, 2017
  * Description: This is the SuperVillain class which inherits from the SuperHuman class
- * Version: 0.1 - Added the SuperVillain class
+ * Version: 0.2 - Added constructors in SuperVillain class
  */
 
-namespace COMP123_S2017_Lab24_SuperVillain
+namespace COMP123_S2017_Lab24
 {
     /// <summary>
     /// This is the SuperVillain class
@@ -34,5 +28,23 @@ namespace COMP123_S2017_Lab24_SuperVillain
                 this._malice = value;
             }
         }
+
+        // CONSTRUCTORS
+
+        /// <summary>
+        /// This is the main constructor for the SuperVillain class
+        /// It takes two arguments - name (string) - malice (int)
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="malice"></param>
+        public SuperVillain(string name, int malice)
+            : base(name)
+        {
+            this.Malice = malice;
+        }
+
+        // PRIVATE METHODS
+
+        // PUBLIC METHODS
     }
 }
