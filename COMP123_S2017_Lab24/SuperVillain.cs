@@ -16,7 +16,7 @@ namespace COMP123_S2017_Lab24_SuperVillain
     /// <summary>
     /// This is the SuperVillain class
     /// </summary>
-    class SuperVillain
+    public class SuperVillain:SuperHuman,
     {
     }
 }
